@@ -1,8 +1,3 @@
-"""
-    SISTEM AKADEMIK MAHASISWA - REDESIGN UI
-    Student Academic Portal — Modern, Symmetric, Clean
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import json
@@ -83,7 +78,6 @@ class AplikasiAkademik:
         self.root.geometry("1440x860")
         self.root.minsize(1240, 740)
 
-        # --- Design tokens (modern indigo/slate) ---
         self.warna = {
             'bg':            '#f1f5f9',
             'surface':       '#ffffff',
